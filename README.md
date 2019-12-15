@@ -38,6 +38,11 @@ Project Organization
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
     │   │
+    │   ├── exercises      <- Scripts for FGV's class assignments
+    │   │   └── exercise_1_prime_numbers.py
+    │   │   └── exercise_2_cpf_checker.py 
+    │   │   └── exercise_3_OOP.py       
+    │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
     │   │   └── build_features.py
     │   │

@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536e4a8-9151-42bd-af23-1755268a37b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rAvailablePackageCache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rpackages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/exercise_1_prime_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/exercise_3_OOP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Advanced-Statistical-Modelling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Advanced-Statistical-Modelling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hello.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +46,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="exercise_1_prime_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Advanced-Statistical-Modelling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/exercises/exercise_1_prime_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exercise_1_prime_numbers" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -54,24 +99,57 @@
       <option name="presentableId" value="Default" />
       <updated>1575939064784</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create initial structure using cookiecutter">
+      <created>1576031425910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576031425910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create initial structure using cookiecutter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create initial structure using cookiecutter" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="155" key="CommitChangelistDialog2" timestamp="1576031347722">
+    <state x="570" y="155" key="CommitChangelistDialog2" timestamp="1576031421923">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
-    <state x="570" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031347722" />
-    <state x="533" y="203" key="SettingsEditor" timestamp="1575939098303">
-      <screen x="0" y="0" width="2048" height="1122" />
+    <state x="570" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031421923" />
+    <state x="3364" y="315" key="FileChooserDialogImpl" timestamp="1576419572249">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state x="3364" y="315" key="FileChooserDialogImpl/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576419572249" />
+    <state width="2005" height="309" key="GridCell.Tab.0.bottom" timestamp="1576431239503">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576431239503" />
+    <state width="2005" height="309" key="GridCell.Tab.0.center" timestamp="1576431239503">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576431239503" />
+    <state width="2005" height="309" key="GridCell.Tab.0.left" timestamp="1576431239503">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576431239503" />
+    <state width="2005" height="309" key="GridCell.Tab.0.right" timestamp="1576431239503">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="309" key="GridCell.Tab.0.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576431239503" />
+    <state x="3093" y="203" key="SettingsEditor" timestamp="1576429208843">
+      <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="533" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1575939098303" />
-    <state x="617" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576031292199">
+    <state x="3093" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576429208843" />
+    <state x="617" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576031441752">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
-    <state x="617" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031292199" />
-    <state x="726" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576031086831">
+    <state x="617" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031441752" />
+    <state x="726" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576419211816">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
-    <state x="726" y="385" key="com.intellij.ide.util.TipDialog/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031086831" />
+    <state x="726" y="385" key="com.intellij.ide.util.TipDialog/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576419211816" />
   </component>
 </project>
