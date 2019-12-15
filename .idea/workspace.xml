@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0536e4a8-9151-42bd-af23-1755268a37b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/exercise_1_prime_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exercise_1_prime_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ldaniel &lt;contato@leandrodaniel.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -98,20 +103,28 @@
       <option name="project" value="LOCAL" />
       <updated>1576431361849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add final version for the prime number exercise">
+      <created>1576446228413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576446228413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create initial structure using cookiecutter" />
     <MESSAGE value="Create initial structure for the exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create initial structure for the exercises" />
+    <MESSAGE value="Add final version for the prime number exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add final version for the prime number exercise" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576431357951">
+    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576446224650">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="570" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031421923" />
-    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576431357951" />
+    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446224650" />
     <state x="3364" y="315" key="FileChooserDialogImpl" timestamp="1576419572249">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
@@ -137,11 +150,11 @@
     </state>
     <state x="533" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1575939098303" />
     <state x="3093" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576429208843" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576431400474">
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576446237626">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="617" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031441752" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576431400474" />
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446237626" />
     <state x="726" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576419211816">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>
