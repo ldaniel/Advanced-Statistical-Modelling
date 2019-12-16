@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0536e4a8-9151-42bd-af23-1755268a37b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/exercise_3_OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exercise_3_OOP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.exercise_3_OOP">
     <configuration name="exercise_1_prime_numbers" type="PythonConfigurationType" factoryName="Python">
       <module name="Advanced-Statistical-Modelling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +65,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exercise_3_OOP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Advanced-Statistical-Modelling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/exercises/exercise_3_OOP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exercise_3_OOP" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -110,51 +136,59 @@
       <option name="project" value="LOCAL" />
       <updated>1576446228413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update exercises 2 and 3 with its enunciation and some code">
+      <created>1576446835127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576446835127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create initial structure using cookiecutter" />
     <MESSAGE value="Create initial structure for the exercises" />
     <MESSAGE value="Add final version for the prime number exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add final version for the prime number exercise" />
+    <MESSAGE value="Update exercises 2 and 3 with its enunciation and some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update exercises 2 and 3 with its enunciation and some code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576446224650">
+    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576446831486">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="570" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031421923" />
-    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446224650" />
+    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446831486" />
     <state x="3364" y="315" key="FileChooserDialogImpl" timestamp="1576419572249">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="3364" y="315" key="FileChooserDialogImpl/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576419572249" />
-    <state width="2005" height="309" key="GridCell.Tab.0.bottom" timestamp="1576446098249">
+    <state width="2005" height="309" key="GridCell.Tab.0.bottom" timestamp="1576455548744">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446098249" />
-    <state width="2005" height="309" key="GridCell.Tab.0.center" timestamp="1576446098248">
+    <state width="2005" height="309" key="GridCell.Tab.0.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576455548744" />
+    <state width="2005" height="309" key="GridCell.Tab.0.center" timestamp="1576455548744">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446098248" />
-    <state width="2005" height="309" key="GridCell.Tab.0.left" timestamp="1576446098247">
+    <state width="2005" height="309" key="GridCell.Tab.0.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576455548744" />
+    <state width="2005" height="309" key="GridCell.Tab.0.left" timestamp="1576455548744">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446098247" />
-    <state width="2005" height="309" key="GridCell.Tab.0.right" timestamp="1576446098249">
+    <state width="2005" height="309" key="GridCell.Tab.0.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576455548744" />
+    <state width="2005" height="309" key="GridCell.Tab.0.right" timestamp="1576455548744">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446098249" />
+    <state width="2005" height="309" key="GridCell.Tab.0.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576455548744" />
     <state x="3093" y="203" key="SettingsEditor" timestamp="1576429208843">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="533" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1575939098303" />
     <state x="3093" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576429208843" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576446237626">
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576446863202">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="617" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031441752" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446237626" />
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576446863202" />
     <state x="726" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576419211816">
       <screen x="0" y="0" width="2048" height="1122" />
     </state>

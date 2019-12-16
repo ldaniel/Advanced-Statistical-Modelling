@@ -26,7 +26,7 @@ roc1.print_rocket()
 # Exercise 2 - Create a class called Person () with attributes: name, city, phone, and email. Use at least 2 special
 # methods in your class. Create an object of your class and make a call to at least one of its special methods.
 
-class Person():
+class Person:
 
     def __init__(self, name=None, city=None, phone=None, email=None):
         self.name = name
@@ -34,12 +34,16 @@ class Person():
         self.phone = phone
         self.email = email
 
+    def __str__(self):
+        return "%s lives in %s, phone number %s and email %s." % (self.name, self.city, self.phone, self.email)
+
     def call_phone(self):
         print("Calling number " + self.phone + "...")
 
 
-mary = Person("maria", "sp", "9988-4578", "maria@email.com")
+mary = Person("Ana Maria", "São Paulo", "9988-7766", "maria@email.com")
 mary.call_phone()
+print(mary)
 
 
 # Exercise 3 - Create the Smartphone class with 2 attributes, size and interface and create the MP3Player class with the
