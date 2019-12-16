@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536e4a8-9151-42bd-af23-1755268a37b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker_unittest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" afterDir="false" />
     </list>
@@ -43,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RunManager" selected="Python.exercise_2_cpf_checker">
     <configuration name="exercise_1_prime_numbers" type="PythonConfigurationType" factoryName="Python">
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576456518398</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update exercise 2 by adding unit tests and some initial code">
+      <created>1576470794034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576470794034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,47 +197,92 @@
     <MESSAGE value="Update exercises 2 and 3 with its enunciation and some code" />
     <MESSAGE value="Update 3 with some code" />
     <MESSAGE value="Update 2 with some remarks and instructions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 2 with some remarks and instructions" />
+    <MESSAGE value="Update exercise 2 by adding unit tests and some initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update exercise 2 by adding unit tests and some initial code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576456514970">
+    <state x="3897" y="163" key="#xdebugger.XInspectDialog" timestamp="1576504834920">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state x="3897" y="163" key="#xdebugger.XInspectDialog/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576504834920" />
+    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576470789307">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="570" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031421923" />
-    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576456514970" />
+    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576470789307" />
     <state x="3364" y="315" key="FileChooserDialogImpl" timestamp="1576419572249">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="3364" y="315" key="FileChooserDialogImpl/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576419572249" />
-    <state width="2005" height="309" key="GridCell.Tab.0.bottom" timestamp="1576470666039">
+    <state width="2027" height="309" key="GridCell.Tab.0.bottom" timestamp="1576505394150">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576470666039" />
-    <state width="2005" height="309" key="GridCell.Tab.0.center" timestamp="1576470666039">
+    <state width="2027" height="309" key="GridCell.Tab.0.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505394150" />
+    <state width="2027" height="309" key="GridCell.Tab.0.center" timestamp="1576505394150">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576470666039" />
-    <state width="2005" height="309" key="GridCell.Tab.0.left" timestamp="1576470666038">
+    <state width="2027" height="309" key="GridCell.Tab.0.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505394150" />
+    <state width="2027" height="309" key="GridCell.Tab.0.left" timestamp="1576505394150">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576470666038" />
-    <state width="2005" height="309" key="GridCell.Tab.0.right" timestamp="1576470666039">
+    <state width="2027" height="309" key="GridCell.Tab.0.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505394150" />
+    <state width="2027" height="309" key="GridCell.Tab.0.right" timestamp="1576505394150">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2005" height="309" key="GridCell.Tab.0.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576470666039" />
-    <state x="3093" y="203" key="SettingsEditor" timestamp="1576429208843">
+    <state width="2027" height="309" key="GridCell.Tab.0.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505394150" />
+    <state width="2027" height="380" key="GridCell.Tab.1.bottom" timestamp="1576505389922">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2027" height="380" key="GridCell.Tab.1.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505389922" />
+    <state width="2027" height="380" key="GridCell.Tab.1.center" timestamp="1576505389922">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2027" height="380" key="GridCell.Tab.1.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505389922" />
+    <state width="2027" height="380" key="GridCell.Tab.1.left" timestamp="1576505389922">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2027" height="380" key="GridCell.Tab.1.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505389922" />
+    <state width="2027" height="380" key="GridCell.Tab.1.right" timestamp="1576505389922">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2027" height="380" key="GridCell.Tab.1.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576505389922" />
+    <state x="3093" y="203" key="SettingsEditor" timestamp="1576489036457">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="533" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1575939098303" />
-    <state x="3093" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576429208843" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576456519843">
+    <state x="3093" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576489036457" />
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576470796054">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="617" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031441752" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576456519843" />
-    <state x="726" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576419211816">
-      <screen x="0" y="0" width="2048" height="1122" />
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576470796054" />
+    <state x="3286" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576490469456">
+      <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="726" y="385" key="com.intellij.ide.util.TipDialog/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576419211816" />
+    <state x="3286" y="385" key="com.intellij.ide.util.TipDialog/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576490469456" />
+    <state x="3148" y="297" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576471158712">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state x="3148" y="297" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576471158712" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint type="python-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
   </component>
 </project>

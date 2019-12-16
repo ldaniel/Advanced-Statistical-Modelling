@@ -56,31 +56,50 @@ Se for 0 ou 1, o dígito K é [0] (zero). Se for 2, 3, 4, 5, 6, 7, 8, 9 ou 10, o
 """
 
 
-class CPF:
+class CPFChecker(object):
     def __init__(self, value=None):
         self.value = value
 
     def __str__(self):
-        return str(self.value)
+        if self.is_valid:
+            cpf = str(self.value)
+            return "{}.{}.{}-{}".format(cpf[:3], cpf[3:6], cpf[6:9], cpf[-2:])
+        else:
+            return str(self.value)
 
-    def Is_Valid(self):
+    def is_valid(self):
+        cpf = str(self.value)
 
-        cpf = self.value
+        is_empty = True if not cpf else False
+        is_not_11_chars = True if len(cpf) != 11 else False
+        is_not_only_digits = True if not cpf.isdigit() else False
 
-        if (not cpf) or (len(cpf) != 11):
+        if is_empty or is_not_11_chars or is_not_only_digits:
             return False
 
-        if not cpf.isdigit():
+        verifying_digit_1 = self._generate_verifying_digit(cpf[:9])
+        verifying_digit_2 = self._generate_verifying_digit(cpf[:10])
+
+        if not (verifying_digit_1 == cpf[9] and verifying_digit_2 == cpf[10]):
             return False
 
-        verifying_digit_1 = cpf[10]
-        verifying_digit_2 = cpf[11]
+        return True
 
+    def _generate_verifying_digit(self, partial_cpf):
+        sum = 0
+        for i in range(len(partial_cpf), 1, -1):
+            sum += int(partial_cpf[(len(partial_cpf)) - i]) * (i + 1)
+
+        num = sum % 11
+        if num <= 1:
+            return str(0)
+        else:
+            return str(11 - num)
 
 # The main program.
 while True:
-    print("Informe o CPF a ser validado, somente números (use <CTRL + C> para sair): ")
-    input_cpf = int(input())
+    print("Informe o CPF a ser validado, somente com números (use <CTRL + C> para sair): ")
+    input_cpf = str(input())
 
-    cpf = CPF(input_cpf)
-    print(str(cpf) + " é um CPF " + ("válido" if cpf.Is_Valid else "inválido") + ".\n")
+    cpf_checker = CPFChecker(input_cpf)
+    print(str(cpf_checker) + " é um CPF " + ("válido" if cpf_checker.is_valid() else "inválido") + ".\n")
