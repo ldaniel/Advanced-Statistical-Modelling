@@ -8,6 +8,11 @@ class Test_CPF_Checker(unittest.TestCase):
         cpf_checker = CPFCheckerClass(input_cpf)
         self.assertEqual(cpf_checker.is_valid(), True)
 
+    def test_valid_cpf_with_verifying_digit_zero(self):
+        input_cpf = "19927507003"
+        cpf_checker = CPFCheckerClass(input_cpf)
+        self.assertEqual(cpf_checker.is_valid(), True)
+
     def test_invalid_cpf(self):
         input_cpf = "86282573067"
         cpf_checker = CPFCheckerClass(input_cpf)
