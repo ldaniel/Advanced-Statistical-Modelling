@@ -56,3 +56,31 @@ Se for 0 ou 1, o dígito K é [0] (zero). Se for 2, 3, 4, 5, 6, 7, 8, 9 ou 10, o
 """
 
 
+class CPF:
+    def __init__(self, value=None):
+        self.value = value
+
+    def __str__(self):
+        return str(self.value)
+
+    def Is_Valid(self):
+
+        cpf = self.value
+
+        if (not cpf) or (len(cpf) != 11):
+            return False
+
+        if not cpf.isdigit():
+            return False
+
+        verifying_digit_1 = cpf[10]
+        verifying_digit_2 = cpf[11]
+
+
+# The main program.
+while True:
+    print("Informe o CPF a ser validado, somente números (use <CTRL + C> para sair): ")
+    input_cpf = int(input())
+
+    cpf = CPF(input_cpf)
+    print(str(cpf) + " é um CPF " + ("válido" if cpf.Is_Valid else "inválido") + ".\n")
