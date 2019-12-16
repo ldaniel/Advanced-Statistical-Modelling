@@ -61,7 +61,7 @@ class CPFChecker(object):
         self.value = value
 
     def __str__(self):
-        if self.is_valid:
+        if self.is_valid():
             cpf = str(self.value)
             return "{}.{}.{}-{}".format(cpf[:3], cpf[3:6], cpf[6:9], cpf[-2:])
         else:
@@ -87,19 +87,11 @@ class CPFChecker(object):
 
     def _generate_verifying_digit(self, partial_cpf):
         sum = 0
-        for i in range(len(partial_cpf), 1, -1):
-            sum += int(partial_cpf[(len(partial_cpf)) - i]) * (i + 1)
+        for i in range(0, len(partial_cpf)):
+            sum += int(partial_cpf[i]) * ((int(len(partial_cpf) + 1)) - i)
 
         num = sum % 11
         if num <= 1:
             return str(0)
         else:
             return str(11 - num)
-
-# The main program.
-while True:
-    print("Informe o CPF a ser validado, somente com números (use <CTRL + C> para sair): ")
-    input_cpf = str(input())
-
-    cpf_checker = CPFChecker(input_cpf)
-    print(str(cpf_checker) + " é um CPF " + ("válido" if cpf_checker.is_valid() else "inválido") + ".\n")
