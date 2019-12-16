@@ -39,7 +39,7 @@ Project Organization
     │   │   └── make_dataset.py
     │   │
     │   ├── exercises      <- Scripts for FGV's class assignments
-    │   ├────── __init__.py    
+    │   │   └── __init__.py    
     │   │   └── exercise_1_prime_numbers.py
     │   │   └── exercise_2_cpf_checker.py 
     │   │   └── exercise_2_cpf_checker_unittest.py
