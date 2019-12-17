@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0536e4a8-9151-42bd-af23-1755268a37b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/exercise_2_cpf_checker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\FGV\04_Modulos\11 - Modelagem Estatistica Avancada\Advanced-Statistical-Modelling\notebooks\exercises" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for exercise_2_cpf_checker_unittest.Test_CPF_Checker">
     <configuration name="exercise_1_prime_numbers" type="PythonConfigurationType" factoryName="Python">
@@ -266,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576520522285</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Move *.ipynb file from src to notebook directory">
+      <created>1576541352263</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576541352263</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -281,9 +294,14 @@
     <MESSAGE value="Update exercise 2 with candidate final code" />
     <MESSAGE value="Update workspace.xml" />
     <MESSAGE value="Update unit tests by writing the basic ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update unit tests by writing the basic ones" />
+    <MESSAGE value="Move *.ipynb file from src to notebook directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move *.ipynb file from src to notebook directory" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3347" y="364" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576541937576">
+      <screen x="2560" y="0" width="2048" height="1122" />
+    </state>
+    <state x="3347" y="364" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576541937576" />
     <state x="3265" y="289" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576505615574">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
@@ -292,31 +310,31 @@
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="3897" y="163" key="#xdebugger.XInspectDialog/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576504834920" />
-    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576520518891">
+    <state x="3130" y="155" key="CommitChangelistDialog2" timestamp="1576541345600">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="570" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031421923" />
-    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576520518891" />
+    <state x="3130" y="155" key="CommitChangelistDialog2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576541345600" />
     <state x="3364" y="315" key="FileChooserDialogImpl" timestamp="1576419572249">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="3364" y="315" key="FileChooserDialogImpl/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576419572249" />
-    <state width="2027" height="309" key="GridCell.Tab.0.bottom" timestamp="1576541268924">
+    <state width="2027" height="309" key="GridCell.Tab.0.bottom" timestamp="1576542810240">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2027" height="309" key="GridCell.Tab.0.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576541268924" />
-    <state width="2027" height="309" key="GridCell.Tab.0.center" timestamp="1576541268924">
+    <state width="2027" height="309" key="GridCell.Tab.0.bottom/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576542810240" />
+    <state width="2027" height="309" key="GridCell.Tab.0.center" timestamp="1576542810240">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2027" height="309" key="GridCell.Tab.0.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576541268924" />
-    <state width="2027" height="309" key="GridCell.Tab.0.left" timestamp="1576541268924">
+    <state width="2027" height="309" key="GridCell.Tab.0.center/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576542810240" />
+    <state width="2027" height="309" key="GridCell.Tab.0.left" timestamp="1576542810240">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2027" height="309" key="GridCell.Tab.0.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576541268924" />
-    <state width="2027" height="309" key="GridCell.Tab.0.right" timestamp="1576541268924">
+    <state width="2027" height="309" key="GridCell.Tab.0.left/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576542810240" />
+    <state width="2027" height="309" key="GridCell.Tab.0.right" timestamp="1576542810240">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
-    <state width="2027" height="309" key="GridCell.Tab.0.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576541268924" />
+    <state width="2027" height="309" key="GridCell.Tab.0.right/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576542810240" />
     <state width="2027" height="254" key="GridCell.Tab.1.bottom" timestamp="1576516528171">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
@@ -338,11 +356,11 @@
     </state>
     <state x="533" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1575939098303" />
     <state x="3093" y="203" key="SettingsEditor/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576515900065" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576520523603">
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2" timestamp="1576541354180">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>
     <state x="617" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@0.0.2048.1122" timestamp="1576031441752" />
-    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576520523603" />
+    <state x="3177" y="294" key="Vcs.Push.Dialog.v2/2560.0.2048.1122/0.0.2048.1122@2560.0.2048.1122" timestamp="1576541354180" />
     <state x="3286" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1576515159586">
       <screen x="2560" y="0" width="2048" height="1122" />
     </state>

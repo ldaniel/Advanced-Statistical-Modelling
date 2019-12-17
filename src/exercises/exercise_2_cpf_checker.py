@@ -73,8 +73,9 @@ class CPFChecker(object):
         is_empty = True if not cpf else False
         is_not_11_chars = True if len(cpf) != 11 else False
         is_not_only_digits = True if not cpf.isdigit() else False
+        it_has_only_the_same_number = self._check_if_only_same_number(cpf)
 
-        if is_empty or is_not_11_chars or is_not_only_digits:
+        if is_empty or is_not_11_chars or is_not_only_digits or it_has_only_the_same_number:
             return False
 
         verifying_digit_1 = self._generate_verifying_digit(cpf[:9])
@@ -95,3 +96,10 @@ class CPFChecker(object):
             return str(0)
         else:
             return str(11 - num)
+
+    def _check_if_only_same_number(self, full_cpf):
+        for i in range(1, len(full_cpf)):
+            if full_cpf[0] != full_cpf[i]:
+                return False
+
+        return True
