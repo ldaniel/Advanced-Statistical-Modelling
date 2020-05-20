@@ -5,7 +5,13 @@ Practicing Advanced Statistical Modelling in Python (Machine Learning I)
 
 Run group class assignment submission on binder:
 
+- Simulation
+
 <a href="https://mybinder.org/v2/gh/ldaniel/Advanced-Statistical-Modelling/master?filepath=notebooks%2Fgroup%2FTrabalho%20em%20Grupo%20-%20Simulation.ipynb" target="_parent"><img src="https://mybinder.org/badge_logo.svg" alt="Run In Binder"/></a>
+
+- EDA
+
+<a href="https://mybinder.org/v2/gh/ldaniel/Advanced-Statistical-Modelling/master?filepath=Advanced-Statistical-Modelling%2Fnotebooks%2Fgroup%2FTrabalho%20em%20Grupo%20-%20EDA.ipynb" target="_parent"><img src="https://mybinder.org/badge_logo.svg" alt="Run In Binder"/></a>
 
 Project Organization
 ------------
