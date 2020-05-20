@@ -12,3 +12,5 @@ matplotlib
 pandas
 numpy
 seaborn
+pandas_profiling=2.3.0
+
